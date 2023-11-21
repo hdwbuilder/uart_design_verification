@@ -6,7 +6,7 @@ output reg tx_clk, rx_clk
  
 int rx_max =0, tx_max = 0;
 int rx_count = 0 , tx_count = 0;
-//////////////////////////////////////////////
+
  
 always@(posedge clk) begin
 		if(rst)begin
